@@ -1,0 +1,66 @@
+#skillset {
+    /* z-index: -1; */
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-box {
+    background-color: #10101a;
+    border: 2px solid black;
+    box-shadow: 2px 21px 15px 4px rgba(0,0,0,0.5);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-form-field {
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #141420;
+    color: antiquewhite;
+    width: 88%;
+}
+
+table {
+    width: 90%;
+    background-color: #141420;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+
+.mat-header-cell {
+    color: #696969;
+    font-weight: lighter;
+    border-bottom: 1px solid #484848;
+}
+
+.mat-column {
+    border-right: 1px solid #383838;
+}
+
+.mat-column-position {
+    width: 10%;
+    border-right: 1px solid #383838;
+    text-align: left;
+}
+
+.mat-column-name {
+    padding-left: 1.5%;
+}
+
+.mat-cell {
+    color: #989898;
+    border-bottom: 1px solid #383838;
+}
