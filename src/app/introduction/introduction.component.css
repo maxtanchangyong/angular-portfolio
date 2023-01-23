@@ -63,7 +63,7 @@ mat-card-actions {
 }
 
 .mat-stroked-button:hover {
-    border: 5px solid black;
+    border: 2px solid black;
     background-color: #696969;
     color: antiquewhite;
 }

@@ -10,13 +10,15 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillSetComponent } from './skill-set/skill-set.component';
+import { DocumentationComponent } from './documentation/documentation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     IntroductionComponent,
-    SkillSetComponent
+    SkillSetComponent,
+    DocumentationComponent
   ],
   imports: [
     BrowserModule,
